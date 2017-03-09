@@ -27,7 +27,7 @@
  ```
  ➜  nodejs node -v
 v6.5.0
-➜  nodejs npm version
+➜  npm version
 { npm: '3.10.3',
   ares: '1.10.1-DEV',
   http_parser: '2.7.0',
