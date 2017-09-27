@@ -5,7 +5,7 @@
  ```
   sudo mkdir /usr/lib/nodejs
   sudo tar -xJvf node-v6.5.0-linux-x64.tar.xz -C /usr/lib/nodejs 
-  sudo mv node-v6.5.0-linux-x64 node-v6.5.0
+  sudo mv /usr/lib/nodejs/node-v6.5.0-linux-x64 /usr/lib/nodejs/node-v6.5.0
  ```
 
 2. Set the environment variable `~/.profile`, add below to the end
