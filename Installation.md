@@ -15,8 +15,13 @@
  export NODEJS_HOME=/usr/lib/nodejs/node-v6.5.0
  export PATH=$NODEJS_HOME/bin:$PATH
  ```
+3. Refresh profile
 
-3. Test installation using
+```
+. ~/.profile
+```
+
+4. Test installation using
 
  `$ node -v`
  
