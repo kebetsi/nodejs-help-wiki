@@ -4,15 +4,15 @@
 
  ```
   sudo mkdir /usr/lib/nodejs
-  sudo tar -xJvf node-v8.9.2-linux-x64.tar.xz -C /usr/lib/nodejs 
-  sudo mv /usr/lib/nodejs/node-v8.9.2-linux-x64 /usr/lib/nodejs/node-v8.9.2
+  sudo tar -xJvf node-v8.9.4-linux-x64.tar.xz -C /usr/lib/nodejs 
+  sudo mv /usr/lib/nodejs/node-v8.9.4-linux-x64 /usr/lib/nodejs/node-v8.9.4
  ```
 
 2. Set the environment variable `~/.profile`, add below to the end
 
  ```
  # Nodejs
- export NODEJS_HOME=/usr/lib/nodejs/node-v8.9.2
+ export NODEJS_HOME=/usr/lib/nodejs/node-v8.9.4
  export PATH=$NODEJS_HOME/bin:$PATH
  ```
 3. Refresh profile
