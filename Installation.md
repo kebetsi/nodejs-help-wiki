@@ -30,18 +30,22 @@
  the normal output is:
 
  ```
- ➜  nodejs node -v
-v6.5.0
+ ➜  node -v
+v8.9.4
 ➜  npm version
-{ npm: '3.10.3',
+{ npm: '5.6.0',
   ares: '1.10.1-DEV',
+  cldr: '31.0.1',
   http_parser: '2.7.0',
-  icu: '57.1',
-  modules: '48',
-  node: '8.9.2',
-  openssl: '1.0.2h',
-  uv: '1.9.1',
-  v8: '5.1.281.81',
-  zlib: '1.2.8' }
+  icu: '59.1',
+  modules: '57',
+  nghttp2: '1.25.0',
+  node: '8.9.4',
+  openssl: '1.0.2n',
+  tz: '2017b',
+  unicode: '9.0',
+  uv: '1.15.0',
+  v8: '6.1.534.50',
+  zlib: '1.2.11' }
 
  ```
