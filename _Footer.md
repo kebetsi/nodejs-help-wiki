@@ -1,1 +1,0 @@
-Hey I can't install nodejs in opensuse, how can I contact you?
