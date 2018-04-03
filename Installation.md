@@ -13,7 +13,7 @@
  ```
  # Nodejs
  export NODEJS_HOME=/usr/local/lib/nodejs/node-v8.9.4/bin
- export PATH=$NODEJS_HOME/bin:$PATH
+ export PATH=$NODEJS_HOME:$PATH
  ```
 3. Refresh profile
 
