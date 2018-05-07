@@ -3,16 +3,18 @@
 1. Unzip the binary archive to any directory you wanna install Node, I use `/usr/local/lib/nodejs`
 
  ```
+  VERSION=v8.9.4
+  DISTRO=linux-x64
   sudo mkdir /usr/local/lib/nodejs
-  sudo tar -xJvf node-v8.9.4-linux-x64.tar.xz -C /usr/local/lib/nodejs 
-  sudo mv /usr/local/lib/nodejs/node-v8.9.4-linux-x64 /usr/local/lib/nodejs/node-v8.9.4
+  sudo tar -xJvf node-$VERSION-$DISTRO.tar.xz -C /usr/local/lib/nodejs 
+  sudo mv /usr/local/lib/nodejs/node-$VERSION-$DISTRO /usr/local/lib/nodejs/node-$VERSION
  ```
 
 2. Set the environment variable `~/.profile`, add below to the end
 
  ```
  # Nodejs
- export NODEJS_HOME=/usr/local/lib/nodejs/node-v8.9.4/bin
+ export NODEJS_HOME=/usr/local/lib/nodejs/node-$VERSION/bin
  export PATH=$NODEJS_HOME:$PATH
  ```
 3. Refresh profile
