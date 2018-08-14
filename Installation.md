@@ -51,3 +51,10 @@ v8.9.4
   zlib: '1.2.11' }
 
  ```
+# To create a **sudo** link:
+
+```
+sudo ln -s /usr/local/lib/nodejs/node-$VERSION-$DISTRO/bin/node /usr/bin/node
+
+sudo ln -s /usr/local/lib/nodejs/node-$VERSION-$DISTRO/bin/npm /usr/bin/npm
+````
