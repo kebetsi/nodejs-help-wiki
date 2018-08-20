@@ -33,7 +33,7 @@
 
  ```
  ➜  node -v
-v8.9.4
+v8.11.4
 ➜  npm version
 { npm: '5.6.0',
   ares: '1.10.1-DEV',
