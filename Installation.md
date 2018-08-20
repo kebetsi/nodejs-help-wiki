@@ -3,7 +3,7 @@
 1. Unzip the binary archive to any directory you wanna install Node, I use `/usr/local/lib/nodejs`
 
  ```
-  VERSION=v8.9.4
+  VERSION=v8.11.4
   DISTRO=linux-x64
   sudo mkdir /usr/local/lib/nodejs
   sudo tar -xJvf node-$VERSION-$DISTRO.tar.xz -C /usr/local/lib/nodejs 
@@ -42,7 +42,7 @@ v8.9.4
   icu: '59.1',
   modules: '57',
   nghttp2: '1.25.0',
-  node: '8.9.4',
+  node: '8.11.4',
   openssl: '1.0.2n',
   tz: '2017b',
   unicode: '9.0',
