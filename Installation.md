@@ -54,7 +54,7 @@ v8.11.4
 ### To create a **sudo** link:
 
 ```
-sudo ln -s /usr/local/lib/nodejs/node-$VERSION-$DISTRO/bin/node /usr/bin/node
+sudo ln -s /usr/local/lib/nodejs/node-$VERSION/bin/node /usr/bin/node
 
-sudo ln -s /usr/local/lib/nodejs/node-$VERSION-$DISTRO/bin/npm /usr/bin/npm
+sudo ln -s /usr/local/lib/nodejs/node-$VERSION/bin/npm /usr/bin/npm
 ````
