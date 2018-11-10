@@ -28,6 +28,8 @@
  `$ node -v`
  
  `$ npm version`
+  
+ `$ npx -v`
 
  the normal output is:
 
