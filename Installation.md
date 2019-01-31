@@ -1,3 +1,5 @@
+
+***
 ### How to install Node.js via binary archive on Linux?
 
 1. Unzip the binary archive to any directory you wanna install Node, I use `/usr/local/lib/nodejs`
@@ -61,4 +63,4 @@ sudo ln -s /usr/local/lib/nodejs/node-$VERSION/bin/node /usr/bin/node
 sudo ln -s /usr/local/lib/nodejs/node-$VERSION/bin/npm /usr/bin/npm
 
 sudo ln -s /usr/local/lib/nodejs/node-$VERSION/bin/npx /usr/bin/npx
-````
+````> 1. * `_****_`
