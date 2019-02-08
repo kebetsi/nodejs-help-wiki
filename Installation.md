@@ -63,4 +63,4 @@ sudo ln -s /usr/local/lib/nodejs/node-$VERSION/bin/node /usr/bin/node
 sudo ln -s /usr/local/lib/nodejs/node-$VERSION/bin/npm /usr/bin/npm
 
 sudo ln -s /usr/local/lib/nodejs/node-$VERSION/bin/npx /usr/bin/npx
-````> 1. * `_****_`
+```
