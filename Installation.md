@@ -5,7 +5,7 @@
 1. Unzip the binary archive to any directory you wanna install Node, I use `/usr/local/lib/nodejs`
 
  ```
-  VERSION=v8.11.4
+  VERSION=v10.15.0
   DISTRO=linux-x64
   sudo mkdir -p /usr/local/lib/nodejs
   sudo tar -xJvf node-$VERSION-$DISTRO.tar.xz -C /usr/local/lib/nodejs 
@@ -15,7 +15,9 @@
 
  ```
  # Nodejs
- export PATH=/usr/local/lib/nodejs/node-$VERSION-$DISTRO:$PATH
+ VERSION=v10.15.0
+ DISTRO=linux-x64
+ export PATH=/usr/local/lib/nodejs/node-$VERSION-$DISTRO/bin:$PATH
  ```
 3. Refresh profile
 
@@ -35,21 +37,22 @@
 
  ```
  ➜  node -v
-v8.11.4
+v10.15.1
 ➜  npm version
-{ npm: '5.6.0',
-  ares: '1.10.1-DEV',
-  cldr: '31.0.1',
-  http_parser: '2.7.0',
-  icu: '59.1',
-  modules: '57',
-  nghttp2: '1.25.0',
-  node: '8.11.4',
-  openssl: '1.0.2n',
-  tz: '2017b',
-  unicode: '9.0',
-  uv: '1.15.0',
-  v8: '6.1.534.50',
+{ npm: '6.4.1',
+  ares: '1.15.0',
+  cldr: '33.1',
+  http_parser: '2.8.0',
+  icu: '62.1',
+  modules: '64',
+  napi: '3',
+  nghttp2: '1.34.0',
+  node: '10.15.1',
+  openssl: '1.1.0j',
+  tz: '2018e',
+  unicode: '11.0',
+  uv: '1.23.2',
+  v8: '6.8.275.32-node.12',
   zlib: '1.2.11' }
 
  ```
