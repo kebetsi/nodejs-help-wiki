@@ -56,7 +56,89 @@ v10.15.1
   zlib: '1.2.11' }
 
  ```
-### To create a **sudo** link:
+
+### How to install Node.js via binary archive on AIX
+
+1. Install dependencies
+
+Node requires both `libgcc` and `libstdc++` 
+
+you can get them through yum
+```
+  yum install libgcc
+  yum install libstdc++
+```
+
+or you can download the rpm files and install them manually
+
+```
+wget https://public.dhe.ibm.com/aix/freeSoftware/aixtoolbox/RPMS/ppc-6.1/gcc/libgcc-6.3.0-2.aix6.1.ppc.rpm
+wget https://public.dhe.ibm.com/aix/freeSoftware/aixtoolbox/RPMS/ppc-6.1/gcc/libstdcplusplus-6.3.0-2.aix6.1.ppc.rpm
+rpm -ivh lib*.rpm
+```
+
+2. Unzip the binary archive to any directory you wanna install Node, this example uses /opt
+
+ ```
+  cd /opt
+  wget https://nodejs.org/dist/latest-v10.x/node-v10.17.0-aix-ppc64.tar.gz
+  VERSION=v10.17.0
+  DISTRO=aix-ppc64
+  sudo gunzip -c node-$VERSION-$DISTRO.tar.gz | tar -xvf-
+ ```
+
+3. edit /etc/profile and add the following to the bottom
+
+ ```
+  # Nodejs
+  VERSION=v10.17.0
+  DISTRO=aix-ppc64
+  export PATH=/opt/node-$VERSION-$DISTRO/bin:$PATH
+ ```
+ 
+4. Refresh profile
+
+```
+. /etc/profile
+```
+
+5. Test installation using
+
+ `$ node -v`
+ 
+ `$ npm version`
+  
+ `$ npx -v`
+
+ the normal output is:
+
+ ```
+  # node -v
+   v10.17.0
+  
+  # npm version
+   { npm: '6.11.3',
+     ares: '1.15.0',
+     brotli: '1.0.7',
+     cldr: '35.1',
+     http_parser: '2.8.0',
+     icu: '64.2',
+     modules: '64',
+     napi: '5',
+     nghttp2: '1.39.2',
+     node: '10.17.0',
+     openssl: '1.1.1d',
+     tz: '2019a',
+     unicode: '12.1',
+     uv: '1.28.0',
+     v8: '6.8.275.32-node.54',
+     zlib: '1.2.11' }
+  
+  # npx -v
+   6.11.3
+ ```
+
+### Using **sudo** to symlink `node`, `npm`, and `npx` into `/usr/bin/`:
 
 ```
 sudo ln -s /usr/local/lib/nodejs/node-$VERSION-$DISTRO/bin/node /usr/bin/node
