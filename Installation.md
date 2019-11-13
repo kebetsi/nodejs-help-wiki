@@ -1,5 +1,8 @@
+## Table of Contents
 
-***
+- [How to install Node.js via binary archive on Linux](#how-to-install-nodejs-via-binary-archive-on-linux)
+- [How to install Node.js via binary archive on AIX](#how-to-install-nodejs-via-binary-archive-on-aix)
+
 ### How to install Node.js via binary archive on Linux?
 
 1. Unzip the binary archive to any directory you wanna install Node, I use `/usr/local/lib/nodejs`
