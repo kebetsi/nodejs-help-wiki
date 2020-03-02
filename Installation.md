@@ -143,6 +143,8 @@ rpm -ivh lib*.rpm
 
 ### Using **sudo** to symlink `node`, `npm`, and `npx` into `/usr/bin/`:
 
+Above instructions for Linux and AIX describe how to modify the default PATH to include the executable's location. Alternatively, it is possible to symlink the executables into the default path, here is an example of how to symlink them into `/usr/bin/`:
+
 ```
 sudo ln -s /usr/local/lib/nodejs/node-$VERSION-$DISTRO/bin/node /usr/bin/node
 
