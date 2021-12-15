@@ -138,7 +138,7 @@ rpm -ivh lib*.rpm
      zlib: '1.2.11' }
   
   # npx -v
-   6.11.3
+   6.4.1
  ```
 
 ### Using **sudo** to symlink `node`, `npm`, and `npx` into `/usr/bin/`:
