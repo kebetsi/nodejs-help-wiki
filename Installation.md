@@ -57,7 +57,8 @@ v10.15.1
   uv: '1.23.2',
   v8: '6.8.275.32-node.12',
   zlib: '1.2.11' }
-
+➜  npx -v
+6.4.1
  ```
 
 ### How to install Node.js via binary archive on AIX
