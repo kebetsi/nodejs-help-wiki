@@ -20,7 +20,7 @@
  # Nodejs
  VERSION=v10.15.0
  DISTRO=linux-x64
- export PATH=/usr/local/lib/nodejs/node-$VERSION-$DISTRO/bin:$PATH
+ export PATH=/usr/local/lib/nodejs/node-v$VERSION-$DISTRO/bin:${PATH}
  ```
 3. Refresh profile
 
